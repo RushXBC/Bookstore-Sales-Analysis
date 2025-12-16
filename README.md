@@ -10,3 +10,11 @@ Key Features:
 4. Trend Indicators: Flags revenue and online sales trends as UP, DOWN, or No Change.
 
 These queries demonstrate practical use of aggregation, date functions, window functions, and conditional logic to provide actionable business insights.
+
+## Using the Dataset
+
+The repository includes a CSV file with raw bookstore sales data.  
+
+**IMPORTANT:** 
+To run the SQL queries as-is, import the CSV into your database and name the table: "dbo.Sales"
+This ensures all queries referencing "dbo.Sales" will work correctly.
