@@ -41,3 +41,4 @@ FROM
         LAG(weekly_revenue) OVER (PARTITION BY store_id ORDER BY week_start_monday) AS previous_revenue
      FROM weekly_totals
     ) AS w;
+
